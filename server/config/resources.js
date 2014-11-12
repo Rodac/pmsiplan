@@ -1,14 +1,4 @@
 module.exports = {
-    user: {
-        type: 'document',
-        schema: {
-            attributes: {
-                name: String
-            }
-        },
-        user: true
-    },
-
     project: {
         type: 'document',
         schema: {
